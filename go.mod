@@ -1,6 +1,8 @@
 module github.com/ignite/cli
 
-go 1.19
+go 1.22.0
+
+toolchain go1.23.4
 
 require (
 	cosmossdk.io/math v1.0.0-beta.4
@@ -60,11 +62,11 @@ require (
 	github.com/vektra/mockery/v2 v2.16.0
 	go.etcd.io/bbolt v1.3.6
 	golang.org/x/exp v0.0.0-20221212164502-fae10dda9338
-	golang.org/x/mod v0.7.0
-	golang.org/x/sync v0.1.0
-	golang.org/x/term v0.2.0
-	golang.org/x/text v0.4.0
-	golang.org/x/tools v0.3.0
+	golang.org/x/mod v0.22.0
+	golang.org/x/sync v0.3.0
+	golang.org/x/term v0.12.0
+	golang.org/x/text v0.13.0
+	golang.org/x/tools v0.13.0
 	golang.org/x/vuln v0.0.0-20221122171214-05fb7250142c
 	google.golang.org/grpc v1.51.0
 	gopkg.in/yaml.v2 v2.4.0
@@ -369,10 +371,10 @@ require (
 	go.uber.org/multierr v1.8.0 // indirect
 	go.uber.org/zap v1.23.0 // indirect
 	golang.org/x/arch v0.0.0-20190927153633-4e8777c89be4 // indirect
-	golang.org/x/crypto v0.3.0 // indirect
+	golang.org/x/crypto v0.13.0 // indirect
 	golang.org/x/exp/typeparams v0.0.0-20220827204233-334a2380cb91 // indirect
-	golang.org/x/net v0.2.0 // indirect
-	golang.org/x/sys v0.2.0 // indirect
+	golang.org/x/net v0.15.0 // indirect
+	golang.org/x/sys v0.12.0 // indirect
 	golang.org/x/xerrors v0.0.0-20220907171357-04be3eba64a2 // indirect
 	google.golang.org/genproto v0.0.0-20221114212237-e4508ebdbee1 // indirect
 	google.golang.org/protobuf v1.28.2-0.20220831092852-f930b1dc76e8 // indirect
