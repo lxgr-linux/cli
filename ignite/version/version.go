@@ -26,7 +26,7 @@ const (
 )
 
 // Version is the semantic version of Ignite CLI.
-var Version = versionDev
+var Version = "v0.26.2"
 
 // CheckNext checks whether there is a new version of Ignite CLI.
 func CheckNext(ctx context.Context) (isAvailable bool, version string, err error) {
